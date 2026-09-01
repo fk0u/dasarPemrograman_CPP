@@ -9,11 +9,11 @@ Repository ini berisi kumpulan kode program, latihan, tugas, dan dokumentasi pra
 | Informasi | Keterangan |
 | :--- | :--- |
 | **Nama** | Al-Ghani Desta Setyawan |
-| **NIM** | *[Masukkan NIM Anda di sini]* |
+| **NIM** | *2611xxxxxxx* |
 | **Program Studi** | S1 Teknik Informatika |
-| **Kelas / Angkatan** | *[Masukkan Kelas / Angkatan]* |
-| **Dosen Pengampu** | *[Nama Dosen Pengampu]* |
-| **Asisten Praktikum**| *[Nama Asisten Praktikum]* |
+| **Kelas / Angkatan** | *Kelas Internasional EE* |
+| **Dosen Pengampu** | *Naufal Azmi Verdikha* |
+| **Asisten Praktikum**| *Lukman Haidi* |
 
 ---
 
