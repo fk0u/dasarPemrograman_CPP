@@ -13,7 +13,7 @@ Repository ini berisi kumpulan kode program, latihan, tugas, dan dokumentasi pra
 | **Program Studi** | S1 Teknik Informatika |
 | **Kelas / Angkatan** | *Kelas Internasional EE* |
 | **Dosen Pengampu** | *Naufal Azmi Verdikha* |
-| **Asisten Praktikum**| *Lukman Haidi* |
+| **Asisten Praktikum**| 1. *Lukman Haidi*<br>2. *Angga*<br>3. *Nazriel* |
 
 ---
 
@@ -23,8 +23,15 @@ Repository ini berisi kumpulan kode program, latihan, tugas, dan dokumentasi pra
 dasarPemrograman_CPP/
 ├── README.md              # Dokumentasi utama repository
 ├── intro.cpp              # Program perkenalan diri
-└── praktikum_1/           # Modul / Pertemuan Praktikum 1
-    └── main.cpp           # Program Hello World & latihan dasar
+├── praktikum_1/           # Modul / Pertemuan Praktikum 1
+│   └── main.cpp           # Program Hello World & latihan dasar
+└── praktikum_2/           # Modul / Pertemuan Praktikum 2 (Variabel, Tipe Data, & Operator)
+    ├── main.cpp                              # Menu interaktif praktikum 2
+    ├── 01_variabel_tipe_data.cpp             # Variabel primitif, string, const, & sizeof
+    ├── 02_operator_aritmatika.cpp            # Aritmatika, type casting, & increment/decrement
+    ├── 03_operator_relasional_distinct.cpp   # Relasional & pemeriksaan nilai unik (distinct)
+    ├── 04_operator_logika_penugasan.cpp      # Logika (AND/OR/NOT), compound assignment, & ternary
+    └── 05_studi_kasus_nilai_akhir.cpp        # Studi kasus komprehensif sistem penilaian
 ```
 
 > *Struktur folder akan terus diperbarui seiring berjalannya pertemuan praktikum.*
@@ -71,8 +78,8 @@ g++ -std=c++17 -Wall main.cpp -o main && ./main
 ## 📋 Daftar Pertemuan & Materi Praktikum
 
 - [x] **Praktikum 0**: Setup Lingkungan C++ & Perkenalan Diri (`intro.cpp`)
-- [ ] **Praktikum 1**: Pengenalan Dasar C++, Struktur Program, Input/Output (`praktikum_1/`)
-- [ ] **Praktikum 2**: Tipe Data, Variabel, dan Operator
+- [x] **Praktikum 1**: Pengenalan Dasar C++, Struktur Program, Input/Output (`praktikum_1/`)
+- [x] **Praktikum 2**: Tipe Data, Variabel, dan Operator (`praktikum_2/`)
 - [ ] **Praktikum 3**: Struktur Kontrol (Percabangan: `if`, `else`, `switch-case`)
 - [ ] **Praktikum 4**: Struktur Perulangan (`for`, `while`, `do-while`)
 - [ ] **Praktikum 5**: Array & String
