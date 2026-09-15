@@ -21,8 +21,8 @@ int main() {
     // 1. Menghitung panjang total karakter string
     size_t nameLength = fullName.length();
 
-    // 2. Mencari posisi indeks kemunculan substring "kara"
-    size_t pos = fullName.find("kara");
+    // 2. Mencari posisi indeks kemunculan substring "ani"
+    size_t pos = fullName.find("ani");
 
     // 3. Mengekstraksi nama depan (substring sebelum spasi pertama)
     size_t spacePos = fullName.find(" ");
@@ -37,9 +37,9 @@ int main() {
     cout << "Name length: " << nameLength << endl;
     cout << "Name after appending text: " << appendedName << endl;
     if (pos != string::npos) {
-        cout << "Position of the word 'kara' in the name: " << pos << endl;
+        cout << "Position of the word 'ani' in the name: " << pos << endl;
     } else {
-        cout << "Word 'kara' not found in the input." << endl;
+        cout << "Word 'ani' not found in the input." << endl;
     }
     cout << "First name (substring): " << firstName << endl;
 
