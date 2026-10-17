@@ -1,0 +1,26 @@
+# ==============================================================================
+# Git Ignore - C++ Dasar Pemrograman Repository
+# ==============================================================================
+
+# Practical Modules & Document Reports (PDF & Word)
+*.pdf
+*.docx
+*.doc
+*.docm
+~$*.docx
+~$*.doc
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Compiled Binaries & Object Files (Optional / Recommended)
+*.o
+*.obj
+*.dSYM/
+
+# IDE & Editor Metadata
+.folio/
